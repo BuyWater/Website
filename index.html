@@ -12,9 +12,10 @@
 <h1> Overrided bro</h1>
 <body>
   <button id="testButton"><p id="rcorners1"> click here for something special</p></button>
+  <p id="stuff"><p>
   <script>
     function printText(){
-      document.write("Bacon sandwich");
+      document.getElementById("stuff").innerHTML = "Bacon Sandwich";
     }
     
     element.getElementById("testButton").addEventListener("click", printText(),true);
