@@ -9,7 +9,7 @@
 
 <script>
 <?php
-  $myFile = fopen("myText.txt", "w") or die("Couldn't open file!")
+  $myFile = fopen("myText.txt", "w") or die("Couldn't open file!");
   $txt = "jack Fratto was here\n";
   fwrite($myFile, $txt);
   $txt = "New line here entered\n";
