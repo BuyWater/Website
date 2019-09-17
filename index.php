@@ -8,12 +8,12 @@
 </div>
   
 <?php
-  $myFile = fopen("myText.txt", "w") or die("Couldn't open file!");
+  $myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
   $txt = "jack Fratto was here\n";
-  fwrite($myFile, $txt);
+  fwrite($myfile, $txt);
   $txt = "New line here entered\n";
-  fwrite($myFile, $txt);
-  fclose($myFile);
+  fwrite($myfile, $txt);
+  fclose($myfile);
 ?>
 
 </body>
