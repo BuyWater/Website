@@ -5,16 +5,5 @@
     Name : <input type="text" name="name">
     Comment : <input type="text" name="comment">
   </div>
-  <script>
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function(){
-      if (this.readyState == 4 && this.status == 200){
-        document.getElementById("commentBox").innerHTML = this.responseText;
-      }
-    }
-    xhr.open("GET", "postComment.php", true);
-    xhr.send();
-    
-  </script>
 </body>
 </html>
