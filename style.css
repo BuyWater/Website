@@ -1,12 +1,22 @@
+.title {
+    font-style : italic;
+    font-family : segoe ui;
+}
+
 .body {
     background-color : white;
 }
 
-.div{
-    text-align : center;
-    width : 20%;
-    height : 100%;
-    position : absolute;
+.overlay {
+    float : left;
+}
+
+.content {
+    float : left;
+}
+
+.sidebar-menu-items{
+    list-style-type : none;
 }
 
 .sidebar-menu-items li {
