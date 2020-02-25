@@ -2,18 +2,22 @@ body {
     background-color : white;
 }
 
-commentBox {
-    border-style : none none groove none;
-}
-
 div{
     text-align : center;
     color : white;
 }
 
-.sidebar-menu-items{
+.sidebar-menu-items li {
     width : 100%;
-    color : lightblue;
     padding: 8px 12px;
+    padding-left: 20px;
     border-bottom : 1px solid #eee;
+}
+
+.sidebar-menu-items li a{
+    text-decoration : none;
+    color : #555;
+    font-size : 18px;
+    font-weight : 400;
+    font-family : segoe ui;
 }
