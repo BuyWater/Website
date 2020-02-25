@@ -1,5 +1,5 @@
 body {
-    background-color : ghostwhite;
+    background-color : white;
 }
 
 commentBox {
@@ -9,4 +9,11 @@ commentBox {
 div{
     text-align : center;
     color : white;
+}
+
+.sidebar-menu-items{
+    width : 100%;
+    color : lightblue;
+    padding: 8px 12px;
+    border-bottom : 1px solid #eee;
 }
