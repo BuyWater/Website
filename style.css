@@ -1,16 +1,9 @@
-.title {
-    font-style : italic;
-    font-family : segoe ui;
-    text-align : center;
-}
-
 .body {
     background-color : white;
 }
 
 .overlay {
     float : left;
-    margin-right : 30px;
 }
 
 .sidebar-menu-items{
@@ -19,13 +12,12 @@
 
 .sidebar-menu-items li {
     padding: 8px 12px;
-    padding-left: 20px;
+    width : 20%;
     border-bottom : 1px solid #eee;
     float : left;
 }
 
 .sidebar-menu-items li a{
-    width : 10%;
     text-decoration : none;
     color : #555;
     font-size : 18px;
