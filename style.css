@@ -8,14 +8,10 @@
     background-color : white;
 }
 
-.wrapper {
-    display : grid;
-    grid-template-columns: 10% 90%;
-}
-
 .overlay {
     float : left;
     margin-right : 30px;
+    width : 10%;
 }
 
 .content {
