@@ -13,6 +13,7 @@
 .sidebar-menu-items li {
     padding: 8px 12px;
     width : 20%;
+    height : 100%;
     border-bottom : 1px solid #eee;
     float : left;
 }
