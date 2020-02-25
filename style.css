@@ -2,6 +2,14 @@
     background-color : white;
 }
 
+.header {
+    padding : 100px 100px;
+}
+
+.content {
+    padding : 100px 100px;
+}
+
 .overlay {
     float : left;
 }
