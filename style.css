@@ -1,37 +1,35 @@
-.body {
-    background-color : white;
-}
 
-.header {
-    padding : 100px 100px;
-}
 
 .content {
-    padding : 100px 100px;
-}
-
-.overlay {
-    float : left;
+  z-index: 1;
+  width : 33%;
+  float : left;
 }
 
 .sidebar-menu-items{
-    list-style-type : none;
-    width : 100%;
+  list-style-type : none;
+  z-index: 2
 }
 
 .sidebar-menu-items li {
-    padding: 8px 12px;
-    width : 100%;
+    padding: 8px;
+    width : 8%;
     border-bottom : 1px solid #eee;
+    transition : background-color .75s;
+}
+
+.sidebar-menu-items li:hover {
+  width : 8%;
+  background-color : lightgrey;
 }
 
 .sidebar-menu-items li a{
     text-decoration : none;
     color : #555;
-    font-size : 18px;
+    font-size : 1.5vw;
     font-weight : 400;
     font-family : segoe ui;
 }
 .sidebar-menu-items li a:hover{
-    color : lightblue
+    color : lightblue;
 }
