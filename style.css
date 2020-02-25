@@ -1,0 +1,12 @@
+body {
+    background-color : ghostwhite;
+}
+
+commentBox {
+    border-style : none none groove none;
+}
+
+div{
+    text-align : center;
+    color : white;
+}
