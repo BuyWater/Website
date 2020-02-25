@@ -8,14 +8,13 @@
 
 .sidebar-menu-items{
     list-style-type : none;
+    width : 100%;
 }
 
 .sidebar-menu-items li {
     padding: 8px 12px;
-    width : 20%;
-    height : 100%;
+    width : 100%;
     border-bottom : 1px solid #eee;
-    float : left;
 }
 
 .sidebar-menu-items li a{
