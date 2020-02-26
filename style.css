@@ -17,10 +17,10 @@
 
 .sidebar-menu-item{
     width : 100%;
-    border-radius: 10%;
+    border-radius: 4%;
     border-bottom : 1px solid #eee;
     transition : background-color .75s;
-    padding-top: 0%;
+    padding: 4px;
 }
 
 .sidebar-menu-item:hover {
