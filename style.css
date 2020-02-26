@@ -6,34 +6,34 @@
   margin-left: 12%;
 }
 
-.sidebar-menu-items{
-  position: fixed;
+.sidebar-menu{
+  position: relative;
   left: 0px;
   display: block;
   list-style-type : none;
-  padding-top: 5%;
+  padding-top: 20px;
   padding-left: 2%;
 }
 
-.sidebar-menu-items li {
+.sidebar-menu-item{
     width : 100%;
     border-radius: 10%;
     border-bottom : 1px solid #eee;
     transition : background-color .75s;
-    padding-top: 10%;
+    padding-top: 0%;
 }
 
-.sidebar-menu-items li:hover {
+.sidebar-menu-item:hover {
   width : 100%;
   background-color : lightgrey;
 }
 
-.sidebar-menu-items a{
+.sidebar-menu-item{
     text-align: center;
     text-decoration : none;
     color : #555;
 
-    font-size : 2vw;
+    font-size : 17px;
     font-weight : 400;
     font-family : segoe ui;
 }
